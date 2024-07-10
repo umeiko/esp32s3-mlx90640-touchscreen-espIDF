@@ -27,7 +27,7 @@ idf.py menuconfig
 
 在`Arduino Configuration  --->`中配置:
 
-```json
+```
 [*] Autostart Arduino setup and loop on boot
 ```
 
@@ -64,7 +64,7 @@ Other settings  --->
 ```
 
 `Display SPI config  --->`
-```json
+```
 SPI port (HSPI (SPI3))
 (-1) TFT MISO pin              
 (4) TFT MOSI pin
@@ -75,7 +75,7 @@ SPI port (HSPI (SPI3))
 ```
 
 `Control Pin configuration  --->`
-```json
+```
 (2) TFT Chip Select pin
 (1) TFT Data/Command pin
 (5) TFT Reset pin
